@@ -3125,3 +3125,52 @@ textarea {
 /*--------------------------------*/
 /* .End CSS
 /*--------------------------------*/
+
+/* 
+custom
+*/
+
+.faq-details .panel-heading h4 .accordion-button:not(.collapsed){
+    color: #17aac9;
+}
+
+.check-title .accordion-button {
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    padding: 10px 10px 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.accordion-button {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    background-color: transparent !important;
+    position: static;
+}
+
+.faq-details .accordion-button:not(.collapsed) span.acc-icons::before {
+    color: #17aac9;
+    content: "\e622";
+    font-family: themify;
+    font-size: 16px;
+    left: -26px;
+    line-height: 39px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+}
+.faq-details .accordion-button span.acc-icons::before {
+    color: #fff;
+    content: "\e61a ";
+    font-family: themify;
+    font-size: 16px;
+    left: -26px;
+    line-height: 39px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+}
+.faq-details .accordion-button span.acc-icons {
+    position: relative;
+}
