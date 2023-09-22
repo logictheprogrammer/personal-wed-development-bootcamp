@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* .unorderd-list {
+  margin-bottom: 10px;
+} */
+/* 
+.unorderd-list > .child {
+  color: blue;
+} */
+
+/* .unorderd-list h1 {
+  color: blue;
+} */
+
+.about {
+  border: 2px solid black;
+  display: flex;
+  margin: 10px;
+  height: 200px;
+}
+
+.about-child {
+  width: 100px;
+  flex: 1;
+}
+
+.one {
+  flex: 2;
+}
+
+.one {
+  background: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+}
+
+.one.second-about {
+  background-color: yellow;
+}
+
+.unorderd-list ul {
+  display: flex;
+  /* gap: 20px; */
+}
+
+.unorderd-list li {
+  /* list-style-type: ; */
+  /* list-style-position: inside; */
+  /* list-style: circle inside; */
+  list-style-type: none;
+  /* margin: 10px; */
+}
+
+.unorderd-list li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid black;
+}

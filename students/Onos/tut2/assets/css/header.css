@@ -1,0 +1,32 @@
+.header {
+  background-color: orange;
+  height: 60px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.header1 {
+  background-color: white;
+  border: 3px solid black;
+}
+.header2 {
+  background-color: white;
+  border: 3px solid black;
+}
+.header3 {
+  background-color: white;
+  border: 3px solid black;
+}
+.header4 {
+  background-color: white;
+  border: 3px solid black;
+  margin-left: 1200px;
+}
+.hero {
+  border: 10px solid black;
+  height: 500px;
+  background-image: url(../img/image1.jpg);
+}
+.head {
+  text-align: center;
+  color: white;
+}

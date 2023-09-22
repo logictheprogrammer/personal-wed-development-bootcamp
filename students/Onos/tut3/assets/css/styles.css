@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.shadow-box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 50px auto;
+  box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.375);
+}

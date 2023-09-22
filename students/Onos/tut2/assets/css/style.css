@@ -1,0 +1,21 @@
+div {
+  height: 50px;
+  border: 2px solid black;
+}
+
+#first {
+  background-color: red;
+  height: 100px;
+}
+
+.first {
+  background-color: pink;
+}
+
+.second {
+  background-color: blue;
+}
+
+.third {
+  background-color: yellow;
+}

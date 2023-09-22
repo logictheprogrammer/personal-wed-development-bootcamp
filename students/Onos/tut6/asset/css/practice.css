@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  height: 200px;
+  border: 5px solid blue;
+  position: relative;
+}
+.head {
+  background-color: black;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease-in-out;display: flex;flex-direction: column;justify-content: end;
+}
+
+.head:hover {
+  background-color: blue;s
+  transform: translate(0, 0);
+}
+.head > p {background-color: black;
+  text-align: center;
+  padding: 4px;
+  color: red;
+  display: none;
+}
+.head:hover p {
+  display: block;
+}

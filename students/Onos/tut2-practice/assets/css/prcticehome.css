@@ -1,0 +1,22 @@
+.head {
+  background-color: blue;
+  height: 40px;
+  width: 50;
+  padding-top: 20px;
+}
+.headchild {
+  color: black;
+  background-color: white;
+  display: inline-block;
+  border: 4px solid black;
+}
+.one {
+  margin-left: 1200px;
+}
+.pic {
+  background-image: url(../img/image1.jpg);
+  height: 500px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}

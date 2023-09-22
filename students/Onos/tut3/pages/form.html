@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="input-group">
+          <label class="form-label" for="first-name">First Name</label>
+          <input type="text" placeholder="First Name" id="first-name" />
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="age">Age</label>
+          <input type="number" placeholder="Age" id="age" />
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="dob">Date Of Birth</label>
+          <input type="date" placeholder="Date Of Birth" id="dob" />
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="country">Country</label>
+          <select id="country">
+            <option>Select Your Country</option>
+            <option>Nigeria</option>
+            <option>USA</option>
+            <option>Ghana</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label class="form-label">Gender</label>
+          <div>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <label class="form-label">Favourite Colors</label>
+          <div>
+            <input type="checkbox" id="red" />
+            <label for="red">Red</label>
+          </div>
+          <div>
+            <input type="checkbox" id="blue" />
+            <label for="blue">Blue</label>
+          </div>
+          <div>
+            <input type="checkbox" id="yellow" />
+            <label for="yellow">Yellow</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="description">Description</label>
+          <textarea id="description" rows="5" cols="100"></textarea>
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="email">Email</label>
+          <input type="email" placeholder="Email" id="email" />
+        </div>
+        <div class="input-group">
+          <label class="form-label" for="password">Password</label>
+          <input type="password" placeholder="Password" id="password" />
+        </div>
+        <button>Register</button>
+      </form>
+    </div>
+  </body>
+</html>

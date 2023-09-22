@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.head {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  background-color: white;
+  gap: 4px;
+}
+.tex {
+  text-decoration: none;
+}
+.one {
+  padding: 0px 4px;
+  margin: 3px;
+}
+.header {
+  color: white;
+  text-align: center;
+}
+.head1 {
+  display: flex;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  flex-direction: column;
+}
+
+.head2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.head3 {
+  display: flex;
+  align-items: end;
+  gap: 7px;
+  height: 100px;
+}
+.image {
+  height: 20px;
+}
+
+.btn {
+  background-color: rgb(189, 11, 11);
+  color: white;
+  box-shadow: -3px 5px 10px rgba(7, 7, 7, 0.466);
+  padding: 10px 30px;
+}
+.head4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.ono {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 300px;
+  padding-right: 25px;
+  height: 300px;
+  list-style: inside;
+}
+#ono {
+  margin-top: 10px;
+}
+.thre {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.textwo {
+  color: black;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.two {
+  background-color: white;
+  display: inline-block;
+  width: 350px;
+  text-align: center;
+  font-size: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  height: 300px;
+  box-shadow: -10px 8px 0px rgba(22, 22, 22, 0.466);
+}
+.input1 {
+  margin: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  width: 320px;
+  border: none;
+  background-color: rgba(247, 240, 228, 0.766);
+}
+.head5 {
+  display: flex;
+  background-color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  justify-content: center;
+}
+.logo3 {
+  width: 150px;
+  height: 150px;
+}
+#join {
+  color: white;
+  margin-bottom: 5px;
+}
+.pa {
+  color: white;
+  padding: 20px 0px 50px;
+}
+.logo1 {
+  width: 200px;
+  height: 100px;
+}
+.pap {
+  text-align: center;
+  padding: 20px 0px 40px;
+}
+#head {
+  margin-top: 20px;
+  text-align: center;
+}
+.head7 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.head8 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.logo2 {
+  margin-top: 20px;
+  height: 70px;
+  width: 70px;
+}
+.head9 {
+  flex: 2;
+}
+.head10 {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2;
+}
+.head11 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex: 1;
+  background-color: black;
+  gap: 10px;
+}
+.pa1 {
+  color: white;
+  display: flex;
+}
+.pa2 {
+  margin-top: 40px;
+}
+.para1 {
+  list-style: none;
+}
+.para1 a {
+  color: white;
+  text-decoration: none;
+}
+.par {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .head5 {
+    flex-direction: column;
+  }
+  .head {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+  }
+}
+@media (max-width: 640px) {
+  .head7 {
+    flex-direction: column;
+  }
+  .head8 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 750px) {
+  .page {
+    flex-direction: column;
+  }
+}
+.mobil {
+  color: white;
+}
