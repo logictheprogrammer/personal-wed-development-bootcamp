@@ -1,0 +1,24 @@
+.inside {
+  background-color: rgba(245, 17, 17, 0.876);
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.796);
+  height: 100vh;
+}
+.outside {
+  background-color: blue;
+  height: 100px;
+}
+.outsider {
+  background-color: brown;
+  display: block;
+  height: 40px;
+}
+.outsider p {
+  text-align: center;
+}

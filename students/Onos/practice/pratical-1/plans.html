@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Dashboard | Bultifore</title>
+    <title>My plans | Bultifore</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -34,9 +34,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- responsive css -->
     <link rel="stylesheet" href="css/responsive.css" />
-
     <link rel="stylesheet" href="css/mine.css" />
-
     <!-- modernizr css -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
@@ -141,7 +139,7 @@
                           <li>
                             <a class="pages" href="#">Dashboard</a>
                             <ul class="sub-menu">
-                              <li><a href="a-dashboard.html">Dashboard</a></li>
+                              <li><a href="index.html">Dashboard</a></li>
                               <li>
                                 <a href="deposit.html">deposit</a>
                               </li>
@@ -149,7 +147,7 @@
                                 <a href="plans.html">My plans</a>
                               </li>
                               <li>
-                                <a href="investment.html">investment</a>
+                                <a href="investment.html.html">investment</a>
                               </li>
                               <li>
                                 <a href="a-deposite-money.html"
@@ -243,12 +241,12 @@
                       <a class="pages" href="#">Dashboard</a>
                       <ul class="sub-menu">
                         <li><a href="a-dashboard.html">Dashboard</a></li>
-                        <li><a href="deposit.html">Send Money</a></li>
+                        <li><a href="deposit.html">Deposit</a></li>
                         <li>
-                          <a href="plans.html">My plans</a>
+                          <a href="a-request-money.html">My plans</a>
                         </li>
                         <li>
-                          <a href="investment.html">investment</a>
+                          <a href="investment.html.html">investment</a>
                         </li>
                         <li>
                           <a href="a-deposite-money.html">Deposite Money</a>
@@ -293,11 +291,11 @@
           <div class="col-12">
             <div class="breadcrumb text-center flex-column align-items-center">
               <div class="section-headline white-headline text-center">
-                <h3>Dashboard</h3>
+                <h3>My plans</h3>
               </div>
               <ul>
-                <li class="home-bread">Home</li>
-                <li>Dashboard</li>
+                <li class="home-bread">Dashboard</li>
+                <li>My plans</li>
               </ul>
             </div>
           </div>
@@ -332,14 +330,14 @@
                   </div>
                 </div>
                 <div class="col-md-3 col-12">
-                  <div class="single-dash-head">
+                  <div class="inside">
                     <div class="dashboard-amount">
                       <div class="amount-content">
                         <a class="edit-icon" href="a-add-bank.html"
                           ><i class="ti-pencil-alt"></i
                         ></a>
-                        <i class="fa fa-trademark" aria-hidden="true"></i>
-                        <span class="pro-name">NBR Of Trade</span>
+                        <!-- <i class="flaticon-043-bank-2"></i> -->
+                        <span class="pro-name">Active</span>
                       </div>
                     </div>
                   </div>
@@ -351,8 +349,8 @@
                         <a class="edit-icon" href="a-card-number.html"
                           ><i class="ti-pencil-alt"></i
                         ></a>
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                        <span class="pro-name">Invests</span>
+                        <!-- <i class="flaticon-050-credit-card-2"></i> -->
+                        <span class="pro-name">Closed</span>
                       </div>
                     </div>
                   </div>
@@ -428,142 +426,56 @@
               </div>
             </aside>
           </div>
-          <div class="col-md-9 col-12">
-            <!-- <div class="dashboard-content">
+          <!-- <div class="col-md-9 col-12">
+            <div class="dashboard-content">
               <div class="row">
-                <div class="col-md-4 col-12">
-                  <div class="single-curency">
-                    <div class="curency-text">
-                      <span class="c-country">Euro</span>
-                      <span class="c-money">300</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="single-curency">
-                    <div class="curency-text">
-                      <span class="c-country">Dolar</span>
-                      <span class="c-money">300</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="single-curency">
-                    <div class="curency-text">
-                      <span class="c-country">Pound</span>
-                      <span class="c-money">300</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="single-curency">
-                    <div class="curency-text">
-                      <span class="c-country">Reyal</span>
-                      <span class="c-money">300</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="single-curency">
-                    <div class="curency-text">
-                      <span class="c-country">Rupee</span>
-                      <span class="c-money">300</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="single-curency">
-                    <div class="curency-text">
-                      <span class="c-country">Lira</span>
-                      <span class="c-money">300</span>
+                <div class="col-12">
+                  <div class="send-money-form">
+                    <div class="form-text">
+                      <h4 class="form-top">My plans</h4>
+                      <div class="form-inner">
+                        <form action="#">
+                          <div class="row">
+                            <div class="col-md-6 col-12">
+                              <label for="m-send">Type Amount</label>
+                              <input type="text" value="0" id="m-send" />
+                            </div>
+                            <div class="col-md-6 col-12">
+                              <label for="currencyfrr">Curreny</label>
+                              <select name="currency-select" id="currencyfrr">
+                                <option value="position">USD</option>
+                                <option value="position">EUR</option>
+                                <option value="position">KSR</option>
+                                <option value="position">INR</option>
+                                <option value="position">BDT</option>
+                              </select>
+                            </div>
+                            <div class="col-md-8 col-12">
+                              <input
+                                type="email"
+                                placeholder="Request Id Number / Email"
+                              />
+                            </div>
+                            <div class="col-md-4 col-12">
+                              <button type="submit">Submit</button>
+                            </div>
+                            <div class="col-12">
+                              <label for="textmsde">Recipient Copy</label>
+                              <textarea
+                                name="textarea"
+                                rows="4"
+                                id="textmsde"
+                              ></textarea>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div> -->
-            <div class="form-inner table-inner p-0">
-              <table>
-                <tr>
-                  <th>Date</th>
-                  <th>Coin</th>
-                  <th>Amount</th>
-                  <th>Status</th>
-                </tr>
-                <tr>
-                  <td>Jan 04, 2022</td>
-                  <td>BTC</td>
-                  <td>$300</td>
-                  <td>Comfirm</td>
-                </tr>
-                <tr>
-                  <td>Jan 20, 2022</td>
-                  <td>ETHM</td>
-                  <td>$500</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>mar 04, 2022</td>
-                  <td>AXC</td>
-                  <td>$5000</td>
-                  <td>pending</td>
-                </tr>
-                <tr>
-                  <td>Apr 20, 2022</td>
-                  <td>UDST</td>
-                  <td>$340</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>Oct 04, 2022</td>
-                  <td>00</td>
-                  <td>$50</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>Dec 10, 2022</td>
-                  <td>ZRX</td>
-                  <td>$10000</td>
-                  <td>pending</td>
-                </tr>
-                <tr>
-                  <td>Jan 04, 2023</td>
-                  <td>ZRX</td>
-                  <td>$100</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>Jan 10, 2023</td>
-                  <td>ZRX</td>
-                  <td>$100</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>Feb 04, 20203</td>
-                  <td>ZRX</td>
-                  <td>$100</td>
-                  <td>Comfirm</td>
-                </tr>
-                <tr>
-                  <td>Mar 14, 2023</td>
-                  <td>ZRX</td>
-                  <td>$10000</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>June 04, 2023</td>
-                  <td>ZRX</td>
-                  <td>$50</td>
-                  <td>comfirm</td>
-                </tr>
-                <tr>
-                  <td>Sept 04, 2023</td>
-                  <td>ZRX</td>
-                  <td>$20000</td>
-                  <td>Comfirm</td>
-                </tr>
-              </table>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
